@@ -1,3 +1,5 @@
+import websiteImg from '../images/website.png'
+
 export const Bio = {
     name: "Naga Vigneswari Kodali",
     roles: [
@@ -273,7 +275,18 @@ export const Bio = {
   
   export const projects = [
     {
-      id: 6,
+      id: 1,
+      title: "Personal Portfolio website",
+      date: "July 2024",
+      description:
+        "The portfolio website is a comprehensive personal project that showcases my skills, experiences, and projects in a professional and engaging manner. This website serves as an online resume and portfolio, allowing visitors to learn more about me, view my work, and get in touch.",
+      image:websiteImg,
+      tags: ["React js", "Node js", "Javascript", "HTML","Express","MongoDB", "CSS","MySQL", "Docker","AWS S3","AWS Lambda"],
+      category: "web projects",
+      github: "https://github.com/vignakodali/Portfolio",
+    },
+    {
+      id: 2,
       title: "Metting Room Reservation system ",
       date: "Nov 2023",
       description:
@@ -285,7 +298,7 @@ export const Bio = {
       github: "https://github.com/vignakodali/Meetingroomreservation",
     },
     {
-      id: 7,
+      id: 3,
       title: "Let's find cheeku-A picaboo game",
       date: "April 2024",
       description:
@@ -297,7 +310,7 @@ export const Bio = {
       github: "https://github.com/vignakodali/Picaboogame",
     },
     {
-      id: 8,
+      id: 4,
       title: "Pneumonia detection using X-ray images ",
       date: "Jan 2022",
       description:
@@ -309,7 +322,7 @@ export const Bio = {
       github: "https://github.com/vignakodali/Pneumonia-Detection",
     },
     {
-      id: 9,
+      id: 5,
       title: "Forest fire Detection using UAV imagery",
       date: "Jan 2024",
       description:
@@ -321,7 +334,7 @@ export const Bio = {
       github: "https://gist.github.com/vignakodali/d22639a49b9992fc09e793959716b883",
     },
     {
-      id: 10,
+      id: 6,
       title: "Living room Object Detection",
       date: "Aug 2023-Dec 2023",
       description:
